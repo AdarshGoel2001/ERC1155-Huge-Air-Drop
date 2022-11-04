@@ -8,7 +8,7 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     goerli: {
-      url: process.env.Alchemy_PROJECT_ID,
+      url: process.env.Quicknode_PROJECT_ID,
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
