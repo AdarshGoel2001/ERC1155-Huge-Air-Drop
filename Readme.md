@@ -1,3 +1,5 @@
+The contract has been deployed to address 0x9dCe7C0B7A19827Def7E1105C7A2b8f8dc7E91a0 using quicknode API
+
 To prepare for airdrop
 
 1. Upload your image or GIF to pinata
