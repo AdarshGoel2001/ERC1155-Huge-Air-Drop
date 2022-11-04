@@ -15,9 +15,7 @@ async function main() {
 
   // We get the contract to deploy
   const Carrier = await hre.ethers.getContractFactory("Carrier");
-  const carrier = await Carrier.deploy(
-    "https://ipfs.filebase.io/ipfs/QmXFfT1YQPZ16NGiytgniTXBH3qAZ8NeBr96sjdAQkhW9v/QmcqqYq2QJoPkVqhMVKkzUjBWBNnt6Pg52tQWVEU8uX8LN"
-  );
+  const carrier = await Carrier.deploy();
 
   await carrier.deployed();
 
